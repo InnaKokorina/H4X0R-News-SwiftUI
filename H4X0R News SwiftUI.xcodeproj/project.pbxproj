@@ -14,6 +14,7 @@
 		C38023C227D0FDD8006DECFA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38023C127D0FDD8006DECFA /* NetworkManager.swift */; };
 		C38023C427D1000A006DECFA /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38023C327D1000A006DECFA /* PostData.swift */; };
 		C3CF4EE727D215E000F85605 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CF4EE627D215E000F85605 /* DetailView.swift */; };
+		C3CF4EE927D227B300F85605 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CF4EE827D227B300F85605 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C38023C127D0FDD8006DECFA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		C38023C327D1000A006DECFA /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		C3CF4EE627D215E000F85605 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C3CF4EE827D227B300F85605 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +43,6 @@
 		C38023A627D0F516006DECFA = {
 			isa = PBXGroup;
 			children = (
-				C3CF4EE527D2159400F85605 /* Views */,
 				C38023B127D0F516006DECFA /* H4X0R News SwiftUI */,
 				C38023B027D0F516006DECFA /* Products */,
 			);
@@ -58,6 +59,7 @@
 		C38023B127D0F516006DECFA /* H4X0R News SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C3CF4EE527D2159400F85605 /* Views */,
 				C38023B227D0F516006DECFA /* H4X0R_News_SwiftUIApp.swift */,
 				C38023C027D0FDBD006DECFA /* Model */,
 				C38023B627D0F519006DECFA /* Assets.xcassets */,
@@ -79,6 +81,7 @@
 			children = (
 				C38023C127D0FDD8006DECFA /* NetworkManager.swift */,
 				C38023C327D1000A006DECFA /* PostData.swift */,
+				C3CF4EE827D227B300F85605 /* WebView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				C38023C227D0FDD8006DECFA /* NetworkManager.swift in Sources */,
 				C38023C427D1000A006DECFA /* PostData.swift in Sources */,
 				C38023B527D0F516006DECFA /* ContentView.swift in Sources */,
+				C3CF4EE927D227B300F85605 /* WebView.swift in Sources */,
 				C3CF4EE727D215E000F85605 /* DetailView.swift in Sources */,
 				C38023B327D0F516006DECFA /* H4X0R_News_SwiftUIApp.swift in Sources */,
 			);
